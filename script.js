@@ -16,3 +16,11 @@ console.log(`O primeiro elemento é: ${num[0]}`);
 for (let pos in num) {
     console.log(`O valor no índice ${pos} é igual a: ${num[pos]}`);
 }
+
+let indice = num.indexOf(3);
+
+    if(indice == -1 ) {
+        console.log('O valor não foi encontrado!');
+    }else {
+        console.log(`O valor digitado foi encontrado e está na posição ${indice}`);
+    }
